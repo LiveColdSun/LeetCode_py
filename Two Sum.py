@@ -6,4 +6,3 @@ class Solution:
             if target - n in store:
                 return (store[target - n]+1, i+1)
             store[n] = i
-            
